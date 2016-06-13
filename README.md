@@ -3,6 +3,7 @@ Swift - 网络连接类型判断
 
 使用swift版本的 Reachability。同时在Reachability.swift 中添加扩展的方式使得使用更简便。
 我在原来的Reachability 中添加扩展
+
 enum NetWorkType {
     case WIFI
     case WWAN
@@ -10,6 +11,7 @@ enum NetWorkType {
 }
 
 // -- LCD => 扩展 接口
+
 extension Reachability {
     static func netWorkIsOk() -> Bool {
         let reachability = self.reachabilityForInternetConnection()
