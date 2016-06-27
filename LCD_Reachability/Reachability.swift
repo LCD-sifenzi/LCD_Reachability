@@ -72,7 +72,6 @@ extension Reachability {
 }
 
 
-
 public let ReachabilityChangedNotification = "ReachabilityChangedNotification"
 
 func callback(reachability:SCNetworkReachability, flags: SCNetworkReachabilityFlags, info: UnsafeMutablePointer<Void>) {

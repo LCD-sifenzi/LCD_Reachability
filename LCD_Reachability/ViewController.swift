@@ -13,13 +13,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+//        
 //        if !Reachability.netWorkIsOk() {
 //            let aler = UIAlertView.init(title: "亲！当前网络未连接！", message: nil, delegate: nil, cancelButtonTitle: "确定")
 //            aler.show()
 //            
 //        }
-        
         
         
         if Reachability.netWorkType() == .WIFI {
